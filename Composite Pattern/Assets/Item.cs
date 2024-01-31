@@ -1,8 +1,8 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// ÃÖ»óÀ§ ¾ÆÀÌÅÛ Ãß»ó Å¬·¡½º
+// ìµœìƒìœ„ ì•„ì´í…œ ì¶”ìƒ í´ë˜ìŠ¤
 public abstract class Item 
 {
     public string name;
@@ -12,6 +12,6 @@ public abstract class Item
     public Item(string _name)
     {
         this.name = _name;
-        Debug.Log("¾ÆÀÌÅÛ : " + name);
+        Debug.Log("ì•„ì´í…œ : " + name);
     }
 }
